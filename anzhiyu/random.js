@@ -1,3 +1,3 @@
-var posts=["2025/09/21/Hexo搭建个人博客/","2025/09/21/hello-world/","2025/10/25/项目心得 /","2025/09/21/gi提交到远程/","2025/11/13/项目问答/","2025/10/25/自我介绍/"];function toRandomPost(){
+var posts=["2025/11/14/ESP环境/","2025/09/21/Hexo搭建个人博客/","2025/09/21/gi提交到远程/","2025/10/25/项目心得 /","2025/11/13/项目问答/","2025/09/21/hello-world/","2025/10/25/自我介绍/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
